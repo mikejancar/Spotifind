@@ -8,6 +8,7 @@ import {LoginComponent} from './login/login.component';
 @Component({
     selector: 'spf-app',
     templateUrl: 'app/app.component.html',
+    styleUrls: ['app/app.component.css'],
     directives: [
         ROUTER_DIRECTIVES,
         LoginComponent
