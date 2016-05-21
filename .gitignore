@@ -3,4 +3,4 @@ typings
 **/*.js.map
 **/*.component.js
 **/*.main.js
-**/npm-debug.log
+**/npm-debug.log*
