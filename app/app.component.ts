@@ -3,7 +3,8 @@ import { HTTP_PROVIDERS } from '@angular/http';
 import { Routes, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router';
 import 'rxjs/Rx';
 
-import {LoginComponent} from './login/login.component';
+import { CommonDataService } from './common/common-data.service';
+import { LoginComponent } from './login/login.component';
 
 @Component({
     selector: 'spf-app',
@@ -15,7 +16,8 @@ import {LoginComponent} from './login/login.component';
     ],
     providers: [
       HTTP_PROVIDERS,
-      ROUTER_PROVIDERS
+      ROUTER_PROVIDERS,
+      CommonDataService
     ]
 })
 @Routes([

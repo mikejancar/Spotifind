@@ -4,3 +4,4 @@ typings
 **/*.component.js
 **/*.main.js
 **/npm-debug.log*
+**/server/data
