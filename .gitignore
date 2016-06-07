@@ -2,6 +2,8 @@ node_modules
 typings
 **/*.js.map
 **/*.component.js
+**/*.service.js
 **/*.main.js
 **/npm-debug.log*
 **/server/data
+**/example-data

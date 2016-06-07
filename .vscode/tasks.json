@@ -2,8 +2,24 @@
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "0.1.0",
-    "command": "node",
+    "command": "cmd",
     "isShellCommand": true,
-    "args": ["${workspaceRoot}\\server\\server.js"],
-    "isWatching": true
+    "showOutput": "silent",
+    "args": ["/C"],
+    "tasks": [
+        {
+            "taskName": "Start Server",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": ["node ${workspaceRoot}\\server\\server.js"],
+            "isWatching": true    
+        },
+        {
+            "taskName": "Start Client",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": ["npm start"],
+            "isWatching": true    
+        }
+    ]
 }
