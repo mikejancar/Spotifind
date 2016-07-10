@@ -1,3 +1,9 @@
+button {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+}
+
 h2 {
     color: deepskyblue;
     line-height: 75px;
